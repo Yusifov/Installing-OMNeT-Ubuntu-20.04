@@ -8,8 +8,8 @@ apt-get install libwebkitgtk-3.0-0
 apt-get install openscenegraph-plugin-osgearth libosgearth-dev
 apt-get install openmpi-bin libopenmpi-dev
 wget https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.7/omnetpp-5.7-linux-x86_64.tgz
-tar xvfz omnetpp-***
-cd omnetpp-***
+tar xvfz omnetpp-5.7-linux-x86_64.tgz
+cd omnetpp-5.7
 . setenv
 echo "export PATH=$HOME/omnetpp-5.7/bin:$PATH" >> ~/.bashrc
 ./configure
